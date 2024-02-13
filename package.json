@@ -1,11 +1,12 @@
 {
   "name": "CupCakesApp",
   "version": "1.0.0",
-  "description": "An App about cupcakes and toppings",
+  "description": "An API App about cupcakes",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./app/models/seedCupcakes.js"
   },
   "author": "Tessa Baxter",
   "license": "ISC",
